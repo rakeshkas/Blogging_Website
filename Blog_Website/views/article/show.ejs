@@ -1,0 +1,21 @@
+
+<div class="container">
+  <div class="heading">
+  <h1>Welcome to our blog</h1>
+  <a class="btn btn_success" href="/">Home</a>
+  </div>
+  <div class="single_post">
+    <h1><%= article.title %></h1>
+    <p><%= article.des %></p>
+    <b><%= article.info %></b>
+
+    <h4 class="date">
+      <i><%= article.createdAt.toLocaleDateString() %></i>
+    </h4>
+  </div>
+</div>
+
+
+
+
+<%= article.title %>
